@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-lucas
+  host: aplicacao-de-teste-lucas
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-lucas-AdvancedMobileAccess
+  - aplicacao-de-teste-lucas-imfpush
+  - aplicacao-de-teste-lucas-cloudantNoSQLDB
